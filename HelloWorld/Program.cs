@@ -10,8 +10,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("HelloWorld");
-            Console.ReadLine();
+            Console.ReadKey();
+            
         }
     }
 }
